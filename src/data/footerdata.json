@@ -1,0 +1,83 @@
+{
+  "footerlogo": "assets/img/logo.png",
+  "footertext": "Our support team will get assistance from AI-powered, making it quicker than ever to handle support requests.",
+  "footerbg": "assets/img/bg/footer.png",
+  "socialicon": [
+    {
+      "icon": "fa fa-facebook",
+      "url": "/"
+    },
+    {
+      "icon": "fa fa-twitter",
+      "url": "/"
+    },
+    {
+      "icon": "fa fa-linkedin",
+      "url": "/"
+    }
+  ],
+  "copyrighttext": "",
+  "popularserces": {
+    "title": "Popular Searches",
+    "links": [
+      {
+        "title": "New Homes for Sale",
+        "url": "/property-details"
+      },
+      {
+        "title": "Apartment for Rent",
+        "url": "/property-details"
+      },
+      {
+        "title": "Offices for Rent",
+        "url": "/property-details"
+      },
+      {
+        "title": "Offices to Buy",
+        "url": "/property-details"
+      }
+    ]
+  },
+  "Homepress": {
+    "title": "Popular Areas",
+    "links": [
+      {
+        "title": "Properties in Wexford",
+        "url": "/property-details"
+      },
+      {
+        "title": "Properties in Galway",
+        "url": "/property-details"
+      },
+      {
+        "title": "Properties in Dublin",
+        "url": "/property-details"
+      },
+      {
+        "title": "Properties in Cork",
+        "url": "/property-details"
+      }
+    ]
+  },
+  "quicklink": {
+    "title": "Quick Links",
+    "links": [
+      {
+        "title": "FAQ",
+        "url": "/faq"
+      },
+      {
+        "title": "Home",
+        "url": "/"
+      },
+      {
+        "title": "About Us",
+        "url": "/About"
+      },
+      {
+        "title": "Contact Us",
+        "url": "/contact"
+      }
+    ]
+  }
+}

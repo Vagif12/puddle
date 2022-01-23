@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Puddle</title>
+
+    <!-- favicon -->
+    <link rel=icon href=assets/img/logo.png sizes="20x20" type="image/png">
+    <!-- Vendor Stylesheet -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/vendor.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/style.css">
+    <!-- responsive Stylesheet -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/responsive.css">
+    <!------ Include the above in your HEAD tag ---------->
+        
+
+</head>
+
+<body>
+    <!-- preloader area start -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader area end -->
+    <div id="puddle"></div>
+
+
+    <!-- back to top area start -->
+    <div class="back-to-top">
+        <span class="back-top"><i class="fa fa-angle-up"></i></span>
+    </div>
+    <!-- back to top area end -->
+
+
+    <!-- all plugins here -->
+    <script src="%PUBLIC_URL%/assets/js/vendor.js"></script>
+
+    <!-- Firestore SDK -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+    
+    
+    <script>
+
+        // Your web app's Firebase configuration
+
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+        var firebaseConfig = {
+
+            apiKey: "AIzaSyBJnl2GFI88d_Ub4vKhjLaVy3Ts738_f9s",
+
+            authDomain: "puddle-house-75289.firebaseapp.com",
+
+            projectId: "puddle-house-75289",
+
+            storageBucket: "puddle-house-75289.appspot.com",
+
+            messagingSenderId: "236356444121",
+
+            appId: "1:236356444121:web:95310885e4acc8625443c8",
+
+            measurementId: "G-LF66X94S91"
+
+        };
+
+        // Initialize Firebase
+
+        firebase.initializeApp(firebaseConfig);
+
+        firebase.analytics();
+
+    </script>
+
+</body>
+
+</html>
